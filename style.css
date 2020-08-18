@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+}
+.wrapper {
+    width: 100%;
+    height: 100vh;
+}
+p {
+    font-size: 1.2em;
+}
+header {
+    height: 60%;
+    text-align: center;
+    background-color: rgb(131, 186, 207);
+	background-blend-mode: multiply;
+    color: cornsilk;
+    border: 5px solid black;
+
+    background-image: url(./img/backup4.jpg);
+	background-position: center;
+	background-size: cover;
+    background-attachment: fixed;
+
+    animation: slider 15s linear infinite;
+    animation-fill-mode: both;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+/*
+@keyframes slider {
+    0%{background-image: url(.,/img/backup5.png);}
+    35%{background-image: url(../img/backup4.jpg);}
+    75%{background-image: url(../img/backup5.png);}
+    100%{background-image: url(../img/backup3.jpg);}
+}
+*/
+header 
+.name {
+    margin-top: 8%;
+    font-size: 2.5em;
+}
+nav ul {
+    text-decoration: none;
+    list-style: none;
+}
+nav ul li {
+    padding-left: 15px;
+    font-size: 1.5rem;
+    color: cornsilk;
+    display: inline-block;
+}
+
+container {
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 5px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5px;
+}
+.black-border {
+    border: 5px solid black;
+}
+.black-border h3 {
+    text-align: center;
+    font-size: 1.5em;
+}
+.black-border ol li {
+    font-size: 1.5em;
+}
+#green-background {
+    background-color: green;
+}
+article {
+    padding-top: 0;
+}
+article h3 {
+    text-align: center;
+}
+article p {
+    text-align: justify;
+    line-height: normal;
+    padding: 0 20px 0 20px;
+}
+
+figure {
+    width: 95%;
+    margin: 0 auto;
+    height: auto;
+}
+figure img {
+    width: 100%;
+}
+figure figcaption {
+    text-align: center;
+    color: rgb(80, 4, 80);
+    font-weight: bolder;
+}
+footer {
+    margin-top: 50px;
+    height: 100px;
+    text-align: center;
+    color: cornsilk;
+    font-size: 1.5rem;
+    background-color: blueviolet;
+    border: 3px solid blue;
+}
+footer #footertxt {
+    padding-top: 40px;
+}
+
+
+
+/*======= Medea Quries ======== */
+
+@media (min-width: 1024px) {
+    body {
+        background-color: turquoise;
+        color: black;
+    }
+    p {
+        font-size: 1.1em;
+    }
+    article p {s
+        line-height: 1.5;
+    }
+    #green-background {
+        background-color: blueviolet;
+    }
+
+}
