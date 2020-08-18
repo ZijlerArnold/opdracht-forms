@@ -1,0 +1,64 @@
+body {
+    background-image: url(./img/backup4.jpg);
+	background-position: center;
+	background-size: cover;
+    background-attachment: fixed;
+}
+.wrapper {
+    width: 100%;
+    height: 100vh;
+}
+.homeBtn {
+    margin-top: 3%;
+    margin-left: 1%;
+    color: cyan;
+    background-color: crimson;
+    padding: 7px 7px 7px 7px;
+    text-decoration: none;
+}
+#homeBtn:hover {
+    color: darkblue;
+    background-color: rgb(240, 214, 219);
+    padding: 7px 7px 7px 7px;
+}
+h2 {
+    text-align: center;
+}
+.boxForm {  
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    height: 57%;
+    border: 4px solid azure;
+    background-color: rgb(55, 160, 160, 0.5);
+}
+form {
+    margin-top: 2%;
+    width: 100%;
+    height: 100%;
+}
+label {
+    margin-left: 4%;
+    width: 90%;
+    height: 5%;
+    font-weight: bolder;
+    color: azure;
+}
+input {
+    margin-left: 4%;
+    width: 90%;
+    height: 10%;
+    font-size: 1em;
+    color: rgb(0, 51, 0);
+}
+textarea {
+    margin-left: 4%;
+    width: 90%;
+    height: 45%;
+}
+button {
+    margin-left: 4%;
+    margin-top: 1%;
+}
